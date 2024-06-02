@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ \"$fileName\" -o \"$workspaceRoot/build/$fileNameWithoutExt\" && \"$workspaceRoot/build/$fileNameWithoutExt\""
+        
+        // for windows env use the below command to build and run the file:
+        // "cpp": "cd $dir && g++ \"$fileName\" -o \"$workspaceRoot/build/$fileNameWithoutExt\" && & \"$workspaceRoot/build/$fileNameWithoutExt\""
+    }
+}
